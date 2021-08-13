@@ -7,7 +7,7 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: gray;
   border-radius: 0;
   border: 0;
 }
@@ -136,34 +136,38 @@ body {
     background: url('../images/jumbotron_1200.jpg') no-repeat;
     height: 675px;
   }
+  #nav-list a {
+    color: rgb(246 179 25);
+    text-align: center;
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
-  #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 100px;
-    height: 100px;
-    margin: 5px 5px 5px 0;
-  }
-  /* End Header */
 
-  /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
-    height: 558px;
+  /* End Header */
+  #nav-list a {
+    color: rgb(246 179 25);
+    text-align: center;
   }
+  /* Home Page */
+
   /* End Home Page */
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
-    height: 432px;
-  }
+
+
+  #nav-list a {
+    color: rgb(246 179 25);
+    text-align: center;
+  }  
   /* End Home Page */
 
 }
@@ -190,25 +194,11 @@ body {
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
   }
+
+
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
     margin-right: 5px;
-  }
-
-  #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
-  }
-  #xs-deliver {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
   }
   /* End Header */
 
