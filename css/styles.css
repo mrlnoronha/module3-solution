@@ -1,0 +1,38 @@
+/********** Navbar **********/
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+  }
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+/********** Large devices only - desktop - md **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only - tablet - sm **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Medium devices only - mbile - xs **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
