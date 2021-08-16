@@ -3,9 +3,11 @@
     background-color: gray;
     border-radius: 0;
     border: 0;
+    margin-bottom: 1em;
   }
   .navbar-brand {
     padding-top: 25px;
+    margin-bottom: 1em;
   }
   .navbar-brand h1 { /* Restaurant name */
     font-family: 'Lora', serif;
@@ -15,16 +17,34 @@
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
-    line-height: .75;
+    line-height: .85;
   }
   .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
   }
 
+  .navbar-default .navbar-nav>li>a { 
+    color: white;
+   }
+
+ /********** Menu **********/  
+
+
+
+.top-menu{
+  font-family: 'Lora', serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
 /********** Our Menu **********/  
 .our-menu{
     font-family: 'Lora', serif;
-    color: black;
+    color:black;
     font-size: 1.1em;
     font-weight: bold;
     text-align: center;
@@ -34,17 +54,24 @@
 
 }
 
-/********** Large devices only - desktop - md **********/
+/********** Desktop **********/
 @media (min-width: 1200px) {
 
+
 }
 
-/********** Medium devices only - tablet - sm **********/
+/********** Laptop **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 
+
 }
 
-/********** Medium devices only - mbile - xs **********/
+/********** tablet **********/
 @media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** mobile L **********/
+@media (min-width: 480px) and (max-width: 767px) {
 
 }
