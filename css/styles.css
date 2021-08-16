@@ -13,7 +13,6 @@
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
@@ -21,6 +20,19 @@
   .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
   }
+
+/********** Our Menu **********/  
+.our-menu{
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+
+}
 
 /********** Large devices only - desktop - md **********/
 @media (min-width: 1200px) {
