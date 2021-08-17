@@ -1,10 +1,39 @@
+.box {
+  margin:10px;
+  border:10px;
+  border-color:red;
+}
+
+.title-text{
+  font-family: 'Lora', serif;
+  color:black;
+  font-size: 1.4em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+.text-corp {
+  font-family: 'Lora', serif;
+  color:black;
+  font-size: 1.0em;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.panel-default{
+  background-color: grey;
+  border:4em;
+
+}
+
 /********** Navbar **********/
 #header-nav {
     background-color:grey;
     border-radius: 0;
     border: 100px;
-    border-color: green;
-    margin-bottom: 1em;    
+    margin-bottom: 1em;   
   }
   .navbar-brand {
     padding-top: 25px;
@@ -25,12 +54,14 @@
   }
 
   .navbar-default .navbar-nav>li>a { 
-    color: white;    
+    color: white;  
+
    }
 
    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: black;
     border-width: 0.15em;
+
 } 
 
  /********** Menu **********/  
@@ -60,7 +91,7 @@
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
-    font-size: 3vw; /* 1vw = 1% of viewport width */
+    font-size: 2vw; /* 1vw = 1% of viewport width */
   }
   .navbar-brand p { /* Kosher cert */
     font-size: .6em;
@@ -78,15 +109,7 @@
     margin-right: 5px;
   }
 
-  #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
-  }
+
   #xs-deliver {
     margin-top: 5px;
     font-size: .7em;
@@ -129,15 +152,7 @@
   margin-right: 5px;
 }
 
-#call-btn > a {
-  font-size: 1.5em;
-  display: block;
-  margin: 0 20px;
-  padding: 10px;
-  border: 2px solid #fff;
-  background-color: #f6b319;
-  color: #951c49;
-}
+
 #xs-deliver {
   margin-top: 5px;
   font-size: .7em;
@@ -180,15 +195,7 @@
     margin-right: 5px;
   }
 
-  #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
-  }
+
   #xs-deliver {
     margin-top: 5px;
     font-size: .7em;
@@ -223,30 +230,24 @@
 #collapsable-nav a { /* Collapsed nav menu text */
   font-size: 1.4em;
   background-color: white;
+  border-bottom: 0.2em solid black;
 }
 .navbar-default .navbar-nav>li>a {
   text-align: center;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: rgb(0 0 0);
-  border-width: 0.15em;
+  border-color: black;
+  border-width: 0.2em;
   background-color: white;
+
 }
+
 #collapsable-nav a span { /* Collapsed nav menu glyph */
   font-size: 1em;
   margin-right: 5px;
 }
 
-#call-btn > a {
-  font-size: 1.5em;
-  display: block;
-  margin: 0 20px;
-  padding: 10px;
-  border: 2px solid #fff;
-  background-color: #f6b319;
-  color: #951c49;
-}
 #xs-deliver {
   margin-top: 5px;
   font-size: .7em;
