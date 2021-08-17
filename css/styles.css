@@ -32,9 +32,13 @@
 #header-nav {
     background-color:grey;
     border-radius: 0;
-    border: 100px;
-    margin-bottom: 1em;   
+    border-color:grey;
+    
+  
   }
+  .navbar-nav {
+    margin: 0 0 0;
+}
   .navbar-brand {
     padding-top: 25px;
     margin-bottom: 1em;
@@ -63,7 +67,10 @@
     border-width: 0.15em;
 
 } 
-
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  margin-right: -15px;
+  margin-left: -15px;
+}
  /********** Menu **********/  
  .navbar-default .navbar-nav>li>a {
   color: black;
